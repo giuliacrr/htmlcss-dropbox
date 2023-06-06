@@ -126,6 +126,10 @@ label {
 }
 
 /* Plans */
+.max-width {
+  max-width:320px;
+}
+
 .plans {
   justify-content:space-between;
   gap:40px;
@@ -133,10 +137,6 @@ label {
 
 .border-small {
   border:1px solid var(--borders-hr);
-}
-
-.max-width {
-  max-width:320px;
 }
 
 .title-box {
@@ -244,4 +244,20 @@ padding:65px;
   margin-left:0;
 }
 
+/*---------FIND A PARTNER---------*/
+.wrap {
+  flex-wrap: wrap;
+  justify-content:space-between;
+}
 
+.feat-imgs {
+  max-width:300px;
+}
+
+.features {
+  max-width:300px;
+}
+
+.find-p {
+  margin: 30px 0;
+}
