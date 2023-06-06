@@ -1,0 +1,97 @@
+:root {
+--main-color:#b4d0e7;
+--button-color:#0061ff;
+}
+
+* {
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.flex {
+  display:flex
+}
+
+/*General*/
+.padding-b {
+  padding:80px 0px;
+}
+
+.margin-top {
+  margin-top: 60px;
+}
+
+/*Title sizes*/
+
+h1 {
+  font-size: 4.5rem;
+  font-weight: 800;
+}
+
+/*Buttons*/
+button {
+  background-color:var(--button-color);
+  color:white;
+  border:none;
+  font-size:1rem;
+  padding:8px 15px;
+  margin-left:15px;
+}
+
+button:hover {
+  cursor:pointer;
+}
+
+.relative {
+  display:relative;
+}
+
+
+/*-----------------------------HEADER-----------------------------*/
+header {
+  width:100%;
+  background-color: var(--main-color);
+}
+
+.nav-menu {
+  justify-content:space-between;
+  background-color: white;
+}
+
+.nav-menu a {
+  text-decoration: none;
+}
+
+.left-menu,
+.right-menu {
+  align-items: center;
+  gap: 40px;
+  padding:20px;
+}
+
+.jumbo {
+  max-width:1200px;
+  margin:auto;
+  height: 770px;
+}
+
+.jumbo-img {
+  max-width: 900px;
+  max-height: 660px;
+  display:absolute;
+}
+
+.trial-start {
+  margin:30px 0px;
+}
+
+.fa-arrow-down {
+  font-size:3rem;
+  font-weight: bolder;
+  margin-top:120px;
+}
+
+
+/*-----------------------------HEADER-----------------------------*/
