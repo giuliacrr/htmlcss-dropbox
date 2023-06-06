@@ -20,6 +20,10 @@
   padding:80px 0px;
 }
 
+.padding-s {
+  padding:30px 0px;
+}
+
 .margin-s {
   margin:30px 0px;
 }
@@ -270,35 +274,108 @@ padding:65px;
   margin-top:40px;
 }
 
-/*ASIDE*/
+/*-----------------------------ASIDE-----------------------------*/
 aside {
   background-color:var(--main-color)
 }
 
 .banners {
   justify-content: space-between;
+  background-color: white;
 }
 
 .banners-cont {
-  height:600px;
-  width:33.3%;
+  width:33.333333333333333333333333333333333333vw;
   flex-wrap: wrap;
-  justify-content: center;
 }
 
 .banner {
-  width:300px;
-  height:300px;
+  width:16.66666666666666vw;
+  height:16.66666666666666vw;
+  justify-content: center;
+  align-items:center;
 }
 
-.green {
-  background-color:green;
+.ban-pic {
+  width:50%;
 }
 
+.middle {
+  flex-grow:1;
+  padding:50px;
+  background-color: #f5f5f5;
+}
+
+.logo-centrale {
+  width:50%;
+}
+
+.middle hr {
+  width:100px;
+  margin-top:40px;
+  margin-bottom: 40px;
+}
+
+.citation {
+  margin-top:40px;
+}
+
+/*bg colors*/
 .red {
   background-color: red;
 }
-
-.join-us {
-  height:300px;
+.green {
+  background-color: green;
 }
+
+/*free-trial*/
+.join-us-cont {
+  max-width:1050px;
+  margin:auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.join-us h2 {
+  color:#61082b;
+}
+
+.join-us-butt button {
+  border:none;
+  margin-top:20px;
+}
+
+/*-----------------------------Q&A SECTION-----------------------------*/
+.qna {
+  width:1050px;
+  margin:auto;
+}
+
+.qna h2 {
+  color:#61082b;
+  margin-bottom:60px;
+}
+
+.question {
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid var(--borders-hr);
+}
+
+.question span {
+font-weight: bold;
+}
+
+.question button {
+  background-color: transparent;
+  border:none;
+  color:black;
+  margin-right:50px;
+}
+
+.question:last-child {
+  border-bottom: 1px solid var(--borders-hr);
+}
+
+
+
