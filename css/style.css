@@ -133,6 +133,9 @@ label {
 
 .border-small {
   border:1px solid var(--borders-hr);
+}
+
+.max-width {
   max-width:320px;
 }
 
@@ -149,6 +152,11 @@ label {
 .info div {
   margin-top:12px;
 }
+
+.last-plan {
+  margin-top:40px;
+}
+
 
 /*Price*/
 .price {
@@ -170,12 +178,15 @@ label {
   margin-left:7.5px;
 }
 
+.contact-us-button {
+  text-align: center;
+}
+
 .or-buy-now {
   margin:40px 0px;
 }
 
 /*hr*/
-
 hr {
   width: 60px;
   border:none;
@@ -196,6 +207,19 @@ hr {
   color:var(--button-color)
 }
 
+/*last plan*/
+.spacing {
+  margin-top:20px;
+  margin-bottom:50px;
+}
 
+.contact-us-button {
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.container-spacing {
+  justify-content:space-between;
+}
 
 
