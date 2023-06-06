@@ -175,7 +175,8 @@ label {
 /*Free-trial button*/
 .free-trial {
   padding:15px 30px;
-  margin-left:7.5px;
+  margin:auto;
+  width:100%
 }
 
 .contact-us-button {
@@ -267,4 +268,37 @@ padding:65px;
 /*OUR CUSTOMERS*/
 .learn-more .discover-more {
   margin-top:40px;
+}
+
+/*ASIDE*/
+aside {
+  background-color:var(--main-color)
+}
+
+.banners {
+  justify-content: space-between;
+}
+
+.banners-cont {
+  height:600px;
+  width:33.3%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.banner {
+  width:300px;
+  height:300px;
+}
+
+.green {
+  background-color:green;
+}
+
+.red {
+  background-color: red;
+}
+
+.join-us {
+  height:300px;
 }
