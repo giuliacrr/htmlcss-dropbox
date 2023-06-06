@@ -18,7 +18,9 @@
 .padding-b {
   padding:80px 0px;
 }
-
+.margin-s {
+  margin:30px 0px;
+}
 .margin-top {
   margin-top: 60px;
 }
@@ -28,6 +30,10 @@
 h1 {
   font-size: 4.5rem;
   font-weight: 800;
+}
+
+h2 {
+  font-size:2.5rem;
 }
 
 /*Buttons*/
@@ -74,7 +80,7 @@ header {
 .jumbo {
   max-width:1200px;
   margin:auto;
-  height: 770px;
+  height: 780px;
 }
 
 .jumbo-img {
@@ -83,15 +89,40 @@ header {
   display:absolute;
 }
 
-.trial-start {
-  margin:30px 0px;
-}
-
 .fa-arrow-down {
   font-size:3rem;
   font-weight: bolder;
-  margin-top:120px;
+  margin-top:150px;
 }
 
 
-/*-----------------------------HEADER-----------------------------*/
+/*-----------------------------MAIN-----------------------------*/
+main {
+  max-width:1000px;
+  margin:auto;
+}
+
+/*Radio-input*/
+
+.check {
+  margin-top:80px;
+  margin-bottom:60px;
+}
+
+.radio-c:hover,
+label:hover {
+  cursor: pointer;
+}
+
+label {
+  margin-right:10px;
+  font-size: 0.9rem;
+}
+
+/* Plans */
+.plans {
+  justify-content:space-between;
+  gap:40px;
+}
+
+
