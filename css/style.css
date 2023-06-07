@@ -5,6 +5,10 @@
 --borders-hr:#d0d0d3;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   padding:0;
   margin:0;
@@ -38,6 +42,17 @@
 }
 .margin-top {
   margin-top: 60px;
+}
+
+/*Arrow-down-scroll*/
+
+.custom-buy-a-plan {
+  color:black;
+}
+
+.custom-buy-a-plan:hover {
+  color:var(--button-color);
+  cursor:pointer;
 }
 
 /*Title sizes*/
@@ -363,6 +378,10 @@ aside {
   background-color: #ffd830;
 }
 
+.banners:hover {
+  cursor: pointer;
+}
+
 /*free-trial*/
 .join-us-cont {
   margin:auto;
@@ -411,6 +430,10 @@ font-weight: bold;
   border-bottom: 1px solid var(--borders-hr);
 }
 
+.last-child-border:last-child {
+  border-bottom: 1px solid var(--borders-hr);
+}
+
 .none {
   display:none;
 }
@@ -432,7 +455,7 @@ font-weight: bold;
 }
 
 .chev-hover {
-  margin-bottom:25px;
+  margin-bottom:55px;
 }
 
 /*-----------------------------FOOTER-----------------------------*/
