@@ -342,7 +342,29 @@ aside {
   width:50%;
 }
 
-.middle hr {
+.pos-rel {
+  position:relative;
+}
+
+.banner-none {
+  display:none;
+  position:absolute;
+  background-color: #f5f5f5;
+  padding:50px;
+  top:0;
+  left:calc(100vw / 3);
+  width:calc(100vw / 3);
+  height:calc(100vw / 3);
+  overflow-y: scroll;
+  overflow-x:hidden;
+}
+
+.banner:hover .banner-none {
+  display:block;
+}
+
+.middle hr, 
+.banner-none hr {
   width:100px;
   margin-top:40px;
   margin-bottom: 40px;
