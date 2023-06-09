@@ -352,11 +352,11 @@ aside {
   overflow-x:hidden;
 }
 
-.banner:hover .banner-none {
+.banner:focus .banner-none {
   display:block;
 }
 
-.banner:hover {
+.banner:focus {
   border-color: rgba(255, 255, 255, 0.3);
 }
 
@@ -457,13 +457,12 @@ font-weight: bold;
   display:none;
 }
 
-.hover-question:hover .question{
+.focus-question:focus .question{
   display:none;
 }
 
-.hover-question:hover .none {
+.focus-question:focus  .none {
   display:block;
-
 }
 
 .answer {
